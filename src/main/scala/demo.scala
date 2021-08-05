@@ -42,10 +42,11 @@ object demo {
     val finalOutPut = coreOutPut.reduce((x,y)=>if(x._2>y._2) x else y);
     val final_t = (System.nanoTime() - start_t).toDouble/1e9;
     println(f"Total time = $final_t%.2f secs.");
-    println(finalOutPut._1);
-    println(accum_sim.value);
-    println(accum_sim_t.value);
-    println(accum_com_t.value);
+    println(f"best alternative ${finalOutPut}")
+    println(f"Total time = $final_t%.2f secs.");
+    println(f"total simulation count ${accum_sim.value} times");
+    println(f"total simulation time ${accum_sim_t.value.toDouble/1e9} s");
+    println(f"total comparison time ${accum_com_t.value.toDouble/1e9} s");
     sc.stop
   }
 
