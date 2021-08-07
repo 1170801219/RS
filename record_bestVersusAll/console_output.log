@@ -1,0 +1,122 @@
+iteration 1
+21/08/07 19:02:18 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:11
+round 3.0 start, rest alternatives:5
+round 4.0 start, rest alternatives:3
+round 5.0 start, rest alternatives:2
+best alternative 1870
+Total time = 15.99 secs.
+total simulation count 143506 times
+total simulation time 1.3683E-5 s
+total comparison time 1.0E-9 s
+iteration 2
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:8
+round 3.0 start, rest alternatives:5
+round 4.0 start, rest alternatives:3
+round 5.0 start, rest alternatives:2
+best alternative 1889
+Total time = 4.86 secs.
+total simulation count 143462 times
+total simulation time 4.36E-6 s
+total comparison time 1.0E-9 s
+iteration 3
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:10
+round 3.0 start, rest alternatives:4
+round 4.0 start, rest alternatives:2
+best alternative 1871
+Total time = 4.55 secs.
+total simulation count 141634 times
+total simulation time 4.138E-6 s
+total comparison time 1.0E-9 s
+iteration 4
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:11
+round 3.0 start, rest alternatives:6
+round 4.0 start, rest alternatives:2
+best alternative 1644
+Total time = 5.08 secs.
+total simulation count 144082 times
+total simulation time 4.686E-6 s
+total comparison time 0.0 s
+iteration 5
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:8
+round 3.0 start, rest alternatives:2
+best alternative 1890
+Total time = 4.68 secs.
+total simulation count 142116 times
+total simulation time 4.342E-6 s
+total comparison time 0.0 s
+iteration 6
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:9
+round 3.0 start, rest alternatives:4
+round 4.0 start, rest alternatives:2
+best alternative 1642
+Total time = 4.77 secs.
+total simulation count 144026 times
+total simulation time 4.407E-6 s
+total comparison time 0.0 s
+iteration 7
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:12
+round 3.0 start, rest alternatives:5
+round 4.0 start, rest alternatives:2
+best alternative 1889
+Total time = 4.70 secs.
+total simulation count 143702 times
+total simulation time 4.318E-6 s
+total comparison time 2.0E-9 s
+iteration 8
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:10
+round 3.0 start, rest alternatives:2
+best alternative 1888
+Total time = 5.06 secs.
+total simulation count 142624 times
+total simulation time 4.67E-6 s
+total comparison time 1.0E-9 s
+iteration 9
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:5
+round 3.0 start, rest alternatives:2
+best alternative 1643
+Total time = 4.85 secs.
+total simulation count 142396 times
+total simulation time 4.518E-6 s
+total comparison time 1.0E-9 s
+iteration 10
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:3248
+[Stage 2:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:12
+round 3.0 start, rest alternatives:8
+round 4.0 start, rest alternatives:4
+round 5.0 start, rest alternatives:2
+best alternative 1887
+Total time = 5.13 secs.
+total simulation count 145644 times
+total simulation time 4.698E-6 s
+total comparison time 0.0 s
+

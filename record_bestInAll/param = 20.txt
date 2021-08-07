@@ -1,0 +1,27 @@
+KT+:
+nSys: 3249
+maxR: 6
+Total time = 6.47 secs.
+best alternative (1890,5.316705491399897)
+Total time = 6.47 secs.
+total simulation count 149454 times
+total simulation time 4.265E-6 s
+total comparison time 2.0E-9 s
+
+Best In All Group:
+Finish simulation initialization, system count(3249)
+Perform initial simulation to find sample best one, n1(20)
+best alternative 1889
+Total time = 8.90 secs.
+total simulation count 212057 times
+total simulation time 6.546E-6 s
+total comparison time 0.0 s
+
+Best Versus All Others:
+Finish simulation initialization, system count(11774)
+Perform initial simulation to find sample best one, n1(20)
+best alternative 6535
+Total time = 19.48 secs.
+total simulation count 510464 times
+total simulation time 1.5965E-5 s
+total comparison time 2.0E-9 s

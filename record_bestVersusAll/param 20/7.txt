@@ -1,0 +1,10 @@
+round 1.0 , rest alternatives:3248
+round 2.0 , rest alternatives:12
+round 3.0 , rest alternatives:5
+round 4.0 , rest alternatives:2
+param 20
+best alternative 1871
+Total time = 4.70 secs.
+total simulation count 143828 times
+total simulation time 4.32E-6 s
+total comparison time 2.0E-9 s
