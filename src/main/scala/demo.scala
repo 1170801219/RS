@@ -1,14 +1,15 @@
-import rngstream._
 import driver._
+import org.apache.spark._
 import problems._
-import collection.mutable._;
-import collection.JavaConversions._;
-import org.apache.spark._;
-import org.apache.spark.SparkContext._;
+import rngstream._
+
+import java.io.PrintWriter
+import scala.collection.JavaConversions._
+import scala.collection.mutable._;
 
 object demo {
-  def main(args:Array[String]):Unit={
-    val start_t = System.nanoTime();
+
+  def main(args: Array[String]): Unit = {
     //val outputFile = "/home/puyang/Desktop/output";//args(0);
     val n1 = args(0).toInt;
     val alpha = args(1).toDouble;
@@ -18,36 +19,50 @@ object demo {
     val nCores = args(5).toInt;
     val nSysInGroup = args(6).toInt;
 
+    RS(n1, alpha, delta, param, cov, nCores, nSysInGroup, null)
 
+  }
 
-    val nSys=problems.TpMax.getNumSystems(param).toInt;
-    val maxR = Math.ceil(Math.log(nSys/nCores)/Math.log(nSysInGroup)).toInt + 1;
+  def RS(n1: Int, alpha: Double, delta: Double, param: String, cov: String, nCores: Int, nSysInGroup: Int, writer: PrintWriter) = {
+    val start_t = System.nanoTime();
 
-    println("nSys: "+nSys);
-    println("maxR: "+maxR);
+    val nSys = problems.TpMax.getNumSystems(param).toInt;
+    val maxR = Math.ceil(Math.log(nSys / nCores) / Math.log(nSysInGroup)).toInt + 1;
 
-    val conf = new SparkConf().setAppName("KT-Spark").set("spark.cores.max",nCores.toString());
+    println("nSys: " + nSys);
+    println("maxR: " + maxR);
+
+    val conf = new SparkConf().setAppName("KT-Spark").set("spark.cores.max", nCores.toString());
     val sc = new SparkContext(conf);
 
-    val coreID = sc.parallelize(0 to nCores-1,nCores);
+    val coreID = sc.parallelize(0 to nCores - 1, nCores);
 
 
-    val accum_sim = sc.accumulator(0L,"Accumulator: total sample size");
-    val accum_sim_t = sc.accumulator(0L,"Accumulator: total simulation time");
+    val accum_sim = sc.accumulator(0L, "Accumulator: total sample size");
+    val accum_sim_t = sc.accumulator(0L, "Accumulator: total simulation time");
     val accum_com_t = sc.accumulator(0L, "Accumulator: comparison time");
 
     val coreOutPut = coreID.map(withinCoreSelection(_, n1, alpha, delta, param,
-    cov, nSysInGroup,nCores ,nSys ,accum_sim, accum_sim_t, accum_com_t)).cache();
+      cov, nSysInGroup, nCores, nSys, accum_sim, accum_sim_t, accum_com_t)).cache();
 
-    val finalOutPut = coreOutPut.reduce((x,y)=>if(x._2>y._2) x else y);
-    val final_t = (System.nanoTime() - start_t).toDouble/1e9;
+    val finalOutPut = coreOutPut.reduce((x, y) => if (x._2 > y._2) x else y);
+    val final_t = (System.nanoTime() - start_t).toDouble / 1e9;
     println(f"Total time = $final_t%.2f secs.");
     println(f"best alternative ${finalOutPut}")
     println(f"Total time = $final_t%.2f secs.");
     println(f"total simulation count ${accum_sim.value} times");
-    println(f"total simulation time ${accum_sim_t.value.toDouble/1e9} s");
-    println(f"total comparison time ${accum_com_t.value.toDouble/1e9} s");
+    println(f"total simulation time ${accum_sim_t.value.toDouble / 1e9} s");
+    println(f"total comparison time ${accum_com_t.value.toDouble / 1e9} s");
+    if (writer != null) {
+      writer.println(f"Total time = $final_t%.2f secs.");
+      writer.println(f"best alternative ${finalOutPut}")
+      writer.println(f"Total time = $final_t%.2f secs.");
+      writer.println(f"total simulation count ${accum_sim.value} times");
+      writer.println(f"total simulation time ${accum_sim_t.value.toDouble / 1e9} s");
+      writer.println(f"total comparison time ${accum_com_t.value.toDouble / 1e9} s");
+    }
     sc.stop
+
   }
 
 

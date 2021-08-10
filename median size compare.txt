@@ -1,0 +1,132 @@
+
+
+
+total system number 3249
+KT+
+Total time = 6.03 secs.
+best alternative (1643,5.318325451696654)
+Total time = 6.03 secs.
+total simulation count 142213 times
+total simulation time 4.009E-6 s
+total comparison time 2.0E-9 s
+
+best in all group
+best alternative 1872
+Total time = 4.10 secs.
+total simulation count 107174 times
+total simulation time 3.583E-6 s
+total comparison time 0.0 s
+
+best versus all group
+best alternative 1889
+Total time = 4.92 secs.
+total simulation count 141066 times
+total simulation time 4.45E-6 s
+total comparison time 1.0E-9 s
+
+KN
+param 20
+best alternative 1887
+Total time = 2.83 secs.
+total simulation count 70403 times
+total simulation time 4.98E-7 s
+total comparison time 5.5E-8 s
+
+
+
+total system number 6624
+KT+
+Total time = 9.45 secs.
+best alternative (3562,6.720959796735205)
+Total time = 9.45 secs.
+total simulation count 334559 times
+total simulation time 8.782E-6 s
+total comparison time 8.0E-9 s
+
+best in all group
+best alternative 3564
+Total time = 7.73 secs.
+total simulation count 217872 times
+total simulation time 7.136E-6 s
+total comparison time 2.0E-9 s
+
+best versus all group
+best alternative 3566
+Total time = 9.41 secs.
+total simulation count 288856 times
+total simulation time 8.706E-6 s
+total comparison time 2.0E-9 s
+
+KN
+param 25
+best alternative 3540
+Total time = 12.09 secs.
+total simulation count 142491 times
+total simulation time 1.239E-6 s
+total comparison time 1.83E-7 s
+
+
+
+total system number 7500
+KT+
+Total time = 11.65 secs.
+best alternative (4310,6.995172515442083)
+Total time = 11.65 secs.
+total simulation count 400369 times
+total simulation time 1.0916E-5 s
+total comparison time 6.0E-9 s
+
+best in all group
+best alternative 4311
+Total time = 8.85 secs.
+total simulation count 248815 times
+total simulation time 8.289E-6 s
+total comparison time 1.0E-9 s
+
+best versus all group
+best alternative 4290
+Total time = 11.74 secs.
+total simulation count 339402 times
+total simulation time 1.0893E-5 s
+total comparison time 1.0E-9 s
+
+KN
+param 26
+best alternative 4285
+Total time = 17.29 secs.
+total simulation count 160425 times
+total simulation time 2.146E-6 s
+total comparison time 3.55E-7 s
+
+
+
+total system number 9477
+KT+
+Total time = 14.77 secs.
+best alternative (5116,7.548524205435693)
+Total time = 14.77 secs.
+total simulation count 525984 times
+total simulation time 1.3812E-5 s
+total comparison time 1.3E-8 s
+
+best in all group
+best alternative 5092
+Total time = 33.11 secs.
+total simulation count 315771 times
+total simulation time 3.2421E-5 s
+total comparison time 2.0E-9 s
+
+best versus all group
+best alternative 5575
+Total time = 16.82 secs.
+total simulation count 420066 times
+total simulation time 1.592E-5 s
+total comparison time 1.0E-9 s
+
+KN
+param 28
+best alternative 5120
+Total time = 27.23 secs.
+total simulation count 202875 times
+total simulation time 1.45E-6 s
+total comparison time 4.79E-7 s

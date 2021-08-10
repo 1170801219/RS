@@ -1,0 +1,33 @@
+
+
+
+total system number 11774
+KT+
+Total time = 22.60 secs.
+best alternative (6538,8.161895591020667)
+Total time = 22.60 secs.
+total simulation count 727323 times
+total simulation time 1.9623E-5 s
+total comparison time 2.8E-8 s
+
+best in all group
+best alternative 6541
+Total time = 12.70 secs.
+total simulation count 384078 times
+total simulation time 1.1636E-5 s
+total comparison time 1.0E-9 s
+
+best versus all group
+best alternative 6542
+Total time = 16.92 secs.
+total simulation count 508660 times
+total simulation time 1.5837E-5 s
+total comparison time 3.0E-9 s
+
+KN
+param 30
+best alternative 6542
+Total time = 66.13 secs.
+total simulation count 251542 times
+total simulation time 2.5296E-5 s
+total comparison time 7.7E-7 s

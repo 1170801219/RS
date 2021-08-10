@@ -1,0 +1,135 @@
+iteration 1
+21/08/07 17:49:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Finish simulation initialization, system count(11774)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:11773
+21/08/07 17:49:21 WARN TaskSetManager: Stage 4 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+21/08/07 17:49:32 WARN TaskSetManager: Stage 5 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+[Stage 5:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:4
+sample optimal: (6539,8.277242147265113)
+compare groups:
+List(6534, 6536, 6539)
+List(6541, 6539)
+survival sysIndices:
+6541
+6539
+match_result:
+(6539,SOAnswer{size=21, fn=8.052646762352392, FnVar=0.0})
+(6541,SOAnswer{size=21, fn=8.30205226999893, FnVar=0.0})
+round 3.0 start, rest alternatives:2
+sample optimal: (6539,8.277242147265113)
+compare groups:
+List(6541, 6539)
+survival sysIndices:
+6541
+match_result:
+(6541,SOAnswer{size=21, fn=8.15830422707083, FnVar=0.0})
+best alternative 6541
+Total time = 26.85 secs.
+total simulation count 764782 times
+total simulation time 2.3393E-5 s
+total comparison time 7.0E-9 s
+iteration 2
+Finish simulation initialization, system count(11774)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:11773
+21/08/07 17:49:45 WARN TaskSetManager: Stage 4 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+21/08/07 17:49:57 WARN TaskSetManager: Stage 5 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+[Stage 5:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:3
+sample optimal: (6541,7.699731598790781)
+compare groups:
+List(6542, 6536, 6541)
+survival sysIndices:
+6536
+match_result:
+(6536,SOAnswer{size=21, fn=8.275690741395122, FnVar=0.0})
+best alternative 6542
+Total time = 24.15 secs.
+total simulation count 764627 times
+total simulation time 2.26E-5 s
+total comparison time 6.0E-9 s
+iteration 3
+Finish simulation initialization, system count(11774)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:11773
+21/08/07 17:50:10 WARN TaskSetManager: Stage 4 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+21/08/07 17:50:21 WARN TaskSetManager: Stage 5 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+[Stage 5:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:3
+sample optimal: (6538,8.164089401898002)
+compare groups:
+List(6539, 6545, 6538)
+survival sysIndices:
+6538
+match_result:
+(6539,SOAnswer{size=21, fn=8.41421043153929, FnVar=0.0})
+best alternative 6545
+Total time = 24.33 secs.
+total simulation count 765925 times
+total simulation time 2.2759E-5 s
+total comparison time 4.0E-9 s
+iteration 4
+Finish simulation initialization, system count(11774)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:11773
+21/08/07 17:51:08 WARN TaskSetManager: Stage 4 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+21/08/07 17:51:19 WARN TaskSetManager: Stage 5 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+[Stage 5:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:7
+sample optimal: (6545,8.295551642887961)
+compare groups:
+List(6534, 6540, 6545)
+List(6532, 6542, 6545)
+List(6538, 6543, 6545)
+survival sysIndices:
+6540
+6542
+6543
+6545
+match_result:
+(6540,SOAnswer{size=55, fn=8.097165734141347, FnVar=0.0})
+(6542,SOAnswer{size=54, fn=8.018718630379627, FnVar=0.0})
+(6543,SOAnswer{size=21, fn=7.90531257556868, FnVar=0.0})
+round 3.0 start, rest alternatives:4
+sample optimal: (6545,8.295551642887961)
+compare groups:
+List(6540, 6542, 6545)
+List(6543, 6545)
+survival sysIndices:
+6542
+6543
+6545
+match_result:
+(6542,SOAnswer{size=21, fn=7.672719946582889, FnVar=0.0})
+(6543,SOAnswer{size=21, fn=7.652975844725772, FnVar=0.0})
+round 4.0 start, rest alternatives:3
+sample optimal: (6545,8.295551642887961)
+compare groups:
+List(6542, 6543, 6545)
+survival sysIndices:
+6543
+match_result:
+(6542,SOAnswer{size=21, fn=8.024061699179878, FnVar=0.0})
+best alternative 6543
+Total time = 58.41 secs.
+total simulation count 763997 times
+total simulation time 5.674E-5 s
+total comparison time 2.0E-9 s
+iteration 5
+Finish simulation initialization, system count(11774)
+Perform initial simulation to find sample best one, n1(20)
+round 1.0 start, rest alternatives:11773
+21/08/07 17:51:33 WARN TaskSetManager: Stage 4 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+21/08/07 17:51:44 WARN TaskSetManager: Stage 5 contains a task of very large size (243 KB). The maximum recommended task size is 100 KB.
+[Stage 5:>                                                          (0 + 1) / 2]                                                                                round 2.0 start, rest alternatives:2
+sample optimal: (6541,8.1891635088)
+compare groups:
+List(6535, 6541)
+survival sysIndices:
+6541
+match_result:
+(6541,SOAnswer{size=21, fn=7.808929469858961, FnVar=0.0})
+best alternative 6541
+Total time = 24.25 secs.
+total simulation count 762430 times
+total simulation time 2.2796E-5 s
+total comparison time 8.0E-9 s
+

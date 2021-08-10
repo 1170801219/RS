@@ -67,8 +67,8 @@ object RS_bestVersusAllOther {
     var count = sysIndices.count()
 
     while (count > 1) {
-      println(f"round ${round} start, rest alternatives:${count}")
-      writer.println(f"round ${round} , rest alternatives:${count}")
+      //      println(f"round ${round} start, rest alternatives:${count}")
+      //      writer.println(f"round ${round} , rest alternatives:${count}")
 
       var sysContainer = sysIndices.map(x => (x, {
         val l = new SOAnswer()
@@ -121,7 +121,7 @@ object RS_bestVersusAllOther {
     println(f"total simulation time ${accum_sim_t.value.toDouble / 1e9} s");
     println(f"total comparison time ${accum_com_t.value.toDouble / 1e9} s");
 
-    writer.println(f"param ${param}")
+    //    writer.println(f"param ${param}")
     writer.println(f"best alternative ${sysIndices.reduce((x, y) => x)}")
     writer.println(f"Total time = $final_t%.2f secs.");
     writer.println(f"total simulation count ${accum_sim.value} times");
